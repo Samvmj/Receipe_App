@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".recep6">
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Kara Kathirikai"
+        android:textColor="#FF5722"
+        android:textSize="40dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="357dp"
+        android:layout_marginTop="10dp"
+        android:text="Kathirikai is nothing but the brinjal. The village people love to eat fiery and healthy dishes.
+ It is one of the spicy and yummy dishes. The ingredients used to make this dish are finely chopped onion,
+brinjal, tamarind juice or paste, and the highlight of the dish is dry red chillies.
+To cook the dish basic ingredient oil and salt has to be used.
+Here the brinjal is directly heated by placing on the flame."
+        android:textAlignment="center"
+        android:textColor="#100101"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".recep4">
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Ulundhu Kali"
+        android:textColor="#FF5722"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="374dp"
+        android:layout_marginTop="25dp"
+        android:text="Ulundhu Kali is one of the healthiest foods in South India.
+It is made of urad dal,which helps your body to enhance
+digestion and it is regarded by the ancient people
+as the power house of protein. Mostly it is given to women
+to stay strong while their adolescent age and during pregnancy.
+Jiggery and gingili oil accompany kali for its taste.
+"
+        android:textAlignment="center"
+        android:textColor="#100101"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+
+</LinearLayout>

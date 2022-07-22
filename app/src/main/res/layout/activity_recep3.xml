@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".recep3"
+    >
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Tuskan Soup"
+        android:textColor="#FF5722"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Instant Pot White Bean Soup- Vegan Gluten Free Dump and
+Go instant pot soup is a quick family dinner sorted under
+30 minutes.This Instant Pot veggie soup with beans is just
+so comforting on a cold night.Whether you are looking for
+a quick meal for the family or something uber nutritious
+along with dinner, this soup fits all categories .It's also
+a great way use up all bits and bobs of the veggies leftover
+in the refrigerator.The best part though is how little work
+it takes to come together."
+        android:textAlignment="center"
+        android:textColor="#100101"
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+
+
+</LinearLayout>
